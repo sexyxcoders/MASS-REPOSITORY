@@ -1,6 +1,6 @@
 "Child abuse content (Ban immediately)"
 "Copyright violation (Take down & ban)"
-"Impersonation (Fake account ban)',
+"Impersonation (Fake account ban)"
 "Fake / irrelevant geogroup (Remove & ban)"
 "Illegal drugs content (Law enforcement)"
 "Violence / threat content (Ban)"
