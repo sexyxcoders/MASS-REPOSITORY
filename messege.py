@@ -1,1 +1,9 @@
-"Report for spam" "This group is spammer group "
+"Child abuse content (Ban immediately)"
+"Copyright violation (Take down & ban)"
+"Impersonation (Fake account ban)',
+"Fake / irrelevant geogroup (Remove & ban)"
+"Illegal drugs content (Law enforcement)"
+"Violence / threat content (Ban)"
+"Doxxing / personal data leak (Ban)"
+"Pornography content (Remove & ban)"
+"Spam / scam activity (Permanent ban)"
