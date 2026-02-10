@@ -14,8 +14,17 @@ config_path = Path("config.json")
 
 async def Report_Function(No):
 
-    listofchoise = ['Report for child abuse', 'Report for copyrighted content', 'Report for impersonation', 'Report an irrelevant geogroup',
-                    'Report an illegal durg', 'Report for Violence', 'Report for offensive person detail', 'Reason for Pornography', 'Report for spam"']
+    listofchoise = [
+    "Child abuse content (Ban immediately)",
+    "Copyright violation (Takedown & ban)",
+    "Impersonation (Fake account ban)",
+    "Fake or irrelevant geogroup (Remove & ban)",
+    "Illegal drugs content (Law enforcement)",
+    "Violence or threat content (Ban)",
+    "Doxxing or personal data leak (Ban)",
+    "Pornography content (Remove & ban)",
+    "Spam or scam activity (Permanent ban)"
+]
     message = listofchoise[int(No) - 1]
 
     # Run a shell command and capture its output
