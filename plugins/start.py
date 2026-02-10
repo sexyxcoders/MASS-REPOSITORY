@@ -10,9 +10,9 @@ from info import Config, Txt
 async def handle_start(bot:Client, message:Message):
 
     Btn = [
-        [InlineKeyboardButton(text='🌷 Hᴇʟᴘ 🌷', callback_data='help'), InlineKeyboardButton(text='🌷 Sᴇʀᴠᴇʀ Sᴛᴀᴛs 🌷', callback_data='server')],
-        [InlineKeyboardButton(text='🌷 Uᴘᴅᴀᴛᴇs 🌷', url='https://t.me/BRANDED_PAID_CC'), InlineKeyboardButton(text='🌷 Aʙᴏᴜᴛ 🌷', callback_data='about')],
-        [InlineKeyboardButton(text='🌷 Dᴇᴠᴇʟᴏᴘᴇʀ 🌷', url='https://t.me/BRANDEDKING82')]
+        [InlineKeyboardButton(text='💀 Hᴇʟᴘ 💀', callback_data='help'), InlineKeyboardButton(text='💀 Sᴇʀᴠᴇʀ Sᴛᴀᴛs 💀', callback_data='server')],
+        [InlineKeyboardButton(text='💀 Uᴘᴅᴀᴛᴇs 💀', url='https://t.me/NexaMeetup'), InlineKeyboardButton(text='💀 Aʙᴏᴜᴛ 💀', callback_data='about')],
+        [InlineKeyboardButton(text='💀 Dᴇᴠᴇʟᴏᴘᴇʀ 💀', url='https://t.me/NexaCoders')]
         ]
 
     await message.reply_text(text=Txt.START_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(Btn))
