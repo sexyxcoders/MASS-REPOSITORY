@@ -12,8 +12,8 @@ class Config(object):
     OWNER    = int(os.environ.get("OWNER", "2083251445"))  # ⚠️ Required
     SUDO = list(map(int, os.environ.get("SUDO", "5303251380 2083251445").split()))  # ⚠️ Required
     # Web Response Config
-    WEBHOOK = bool(os.environ.get("WEBHOOK", True))
-    PORT = int(os.environ.get("PORT", "8080"))
+    WEBHOOK = os.environ.get("WEBHOOK", "False") == "True"
+    PORT = int(os.environ.get("PORT", "5000"))
 
 class Txt(object):
 
